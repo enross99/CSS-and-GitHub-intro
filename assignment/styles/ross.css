@@ -3,7 +3,7 @@
     Where I have commented "keep," DO NOT touch that line!
     */
 
-body, aside {
+body {
     background: #76D8DB; /* must change */
     color: #000; /* may be #000 or #fff */
     font-family: Calibri, Arial, sans-serif; /* keep */
@@ -18,6 +18,10 @@ article {
 }
 
 /* --- ADD YOUR STYLES BELOW --- */
+aside {
+    background: #76D8DB;
+}
+
 header, footer {
     background: #24359E;
     color: #fff;
@@ -58,5 +62,5 @@ footer a:hover {
     color: #fdfefe;
 }
 footer a:active {
-    color: #c7eff0;
+    color: #fff;
 }
